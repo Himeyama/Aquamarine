@@ -1,102 +1,66 @@
 ---
 layout: default
+title: テストページ
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+**太字**, _斜体_, or ~~打ち消し~~.
 
-[Link to another page](./another-page.html).
+[index](./).
 
-There should be whitespace between paragraphs.
+# 見出し 1
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## 見出し 2
 
-# Header 1
+> 引用1
+> 引用2
+> 引用3
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
+### 見出し 3
 
 ```js
 // Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+class Hoge{
+    a
+    constructor(x){
+        this.x = x
+    }
 }
 ```
 
 ```ruby
 # Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+day = %w[日 月 火 水 木 金 土]
+puts "今日は#{day[Time.new.wday]}曜日"
 ```
 
-#### Header 4
+#### 見出し 4
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*   箇条書き
 
-##### Header 5
+##### 見出し 5
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+1.  箇条書き1
+2.  箇条書き2
+3.  箇条書き3
 
-###### Header 6
+###### 見出し 6
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| 名前         | 出身              | 
+|:-------------|:------------------|
+| 河豚         | 山口県            |     
+| めんたいこ   | 福岡県            |     
+| ちゃんぽん   | 長崎県            |    
+| いきなり団子 | 熊本県            |     
 
-### There's a horizontal rule below this.
+### 水平線
 
 * * *
 
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
+### 小さい画像
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-### Large image
+### 大きい画像
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
@@ -118,12 +82,12 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
-<button>button</button>
+<button>ボタン</button>
 
-<select></select>
+<select><option>選択</option></select>
 
-<input>
+<input placeholder="入力">
 
-<input type="button">
+<input type="button" value="クリック">
 
 <input type="submit">
