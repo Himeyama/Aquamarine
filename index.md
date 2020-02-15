@@ -3,6 +3,16 @@ layout: default
 title: テストページ
 ---
 
+# インストール
+```sh
+git clone https://github.com/Himeyama/Aquamarine
+dir=Aquamarine
+cp -r $dir/_includes .
+cp -r $dir/_layouts .
+cp -r $dir/assets .
+rm -rf $dir
+```
+
 **太字**, _斜体_, or ~~打ち消し~~.
 
 [index](./).
